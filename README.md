@@ -1,4 +1,4 @@
-# RedisMQ
+# Redis消息队列
 Redis的消息队列(Redis Message Queue) <br>
 使用Redis服务做消息队列              <br>
 来源：主开发者是中国的 XhaniAgoni    <br>
@@ -23,9 +23,9 @@ Nacos 控制台(建议2.0以上版本)                                          
 <h2>持久化：</h2>
 Redis提供的AOF和RDB持久化可以启用 建议全部开启<br>
 
-<br><h3>中文分割线</h3><br>
+<br><h4>中文分割线</h4><br>
 <hr>
-<br><h3>English dividing line</h3><br>
+<br><h4>English dividing line</h4><br>
 
 # RedisMQ
 Message Queuing Using Redis (Redis Message Queuing) <br>
