@@ -23,6 +23,7 @@ Nacos 控制台(建议2.0以上版本)                                          
 <h2>持久化：</h2>
 Redis提供的AOF和RDB持久化可以启用 建议全部开启<br>
 
+<hr>
 
 #RedisMQ
 Message Queuing Using Redis (Redis Message Queuing) <br>
