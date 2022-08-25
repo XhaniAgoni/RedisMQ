@@ -6,7 +6,6 @@ Redis的消息队列(Redis Message Queue) <br>
 邮箱：1305382505@qq.com              <br>
 版本：1.0                            <br>
 
-  *{font-size:18px}
 
 <h2>准备工作：</h2>                           <br>
 java  版本 大于 1.8                <br>
@@ -15,11 +14,13 @@ sentinel 控制面板(建议1.6.2以上版本)                                  
 nacos 控制台(建议2.0以上版本)                                                       <br>
 
 <h2>启动：</h2>                               <br>
-优先启动redis，再启动nacos和sentinel 
+优先启动redis，再启动nacos和sentinel          <br>
 (当然不启动并不影响程序运行,只是建议开启)      <br>
 之后再启动RedisClientApplication(端口号6381)和RedisServiceApplication(端口号6380)启动类      <br>
 你可以登录url ：端口号/swagger-ui.html 查看接口文档    <br>
 
 
+<h2>持久化：</h2>
+Redis提供的AOF和RDB持久化可以启用 建议全部开启<br>
 
 
