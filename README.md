@@ -8,13 +8,13 @@ Redis的消息队列(Redis Message Queue) <br>
 
 
 <h2>准备工作：</h2>                           <br>
-java  版本 大于 1.8                <br>
-window  下载 Redis 5.0以上版本  https://github.com/tporadowski/redis/releases         <br>
-sentinel 控制面板(建议1.6.2以上版本)                                                 <br>
+Java  版本 大于 1.8                <br>
+Window  下载 Redis 5.0以上版本  https://github.com/tporadowski/redis/releases         <br>
+Sentinel 控制面板(建议1.6.2以上版本)                                                 <br>
 Nacos 控制台(建议2.0以上版本)                                                       <br>
 
 <h2>启动：</h2>                               <br>
-优先启动redis，再启动nacos和sentinel          <br>
+优先启动Redis，再启动Nacos和Sentinel          <br>
 (当然不启动并不影响程序运行,只是建议开启)      <br>
 之后再启动RedisClientApplication(端口号6381)和RedisServiceApplication(端口号6380)启动类      <br>
 你可以登录url ：端口号/swagger-ui.html 查看接口文档    <br>
