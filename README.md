@@ -6,9 +6,7 @@ Redis的消息队列(Redis Message Queue) <br>
 邮箱：1305382505@qq.com              <br>
 版本：1.0                            <br>
 
-<style>
   *{font-size:18px}
-</style>
 
 <h2>准备工作：</h2>                           <br>
 java  版本 大于 1.8                <br>
