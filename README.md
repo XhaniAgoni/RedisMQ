@@ -23,9 +23,11 @@ Nacos 控制台(建议2.0以上版本)                                          
 <h2>持久化：</h2>
 Redis提供的AOF和RDB持久化可以启用 建议全部开启<br>
 
+<br>中文分割线
 <hr>
+<br>English dividing line
 
-#RedisMQ
+# RedisMQ
 Message Queuing Using Redis (Redis Message Queuing) <br>
 Use Redis service as message queue  <br>
 Source: The main developer is XhaniAgoni in China.  <br>
