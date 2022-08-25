@@ -24,25 +24,25 @@ Nacos 控制台(建议2.0以上版本)                                          
 Redis提供的AOF和RDB持久化可以启用 建议全部开启<br>
 
 
-RedisMQ
-Message Queuing Using Redis (Redis Message Queuing)
-Use Redis service as message queue
-Source: The main developer is XhaniAgoni in China.
-Contact QQ and WeChat: 1305382505
-E-mail :1305382505@qq.com
-Version: 1.0
+#RedisMQ
+Message Queuing Using Redis (Redis Message Queuing) <br>
+Use Redis service as message queue  <br>
+Source: The main developer is XhaniAgoni in China.  <br>
+Contact QQ and WeChat: 1305382505 <br>
+E-mail :1305382505@qq.com <br>
+Version: 1.0  <br>
 
-Preparation:
+<h2>Preparation:</h2>
 
-Java version is greater than 1.8
-Windows download Redis 5.0 or above https://github.com/tporadowski/redis/releases
-Sentinel control panel (version 1.6.2 or above is recommended)
-Nacos console (version 2.0 or above is recommended)
-Start:
+Java version is greater than 1.8  <br>
+Windows download Redis 5.0 or above https://github.com/tporadowski/redis/releases <br>
+Sentinel control panel (version 1.6.2 or above is recommended)  <br>
+Nacos console (version 2.0 or above is recommended) <br>
+<h2>Start:</h2>
 
-Start Redis first, then start Nacos and Sentinel.
-(Of course, not starting does not affect the running of the program, but it is recommended to start it)
-Then start the RedisClientApplication (port number 6381) and RedisServiceApplication (port number 6380) startup classes.
-You can log on to the website: port number /swagger-ui.html to view the interface document.
-Persistence:
-Use the persistence of AOF and RDB provided by Redis to enable all suggestions to be turned on.
+Start Redis first, then start Nacos and Sentinel. <br>
+(Of course, not starting does not affect the running of the program, but it is recommended to start it) <br>
+Then start the RedisClientApplication (port number 6381) and RedisServiceApplication (port number 6380) startup classes.  <br>
+You can log on to the website: port number /swagger-ui.html to view the interface document. <br>
+<h2>Persistence:</h2>
+Use the persistence of AOF and RDB provided by Redis to enable all suggestions to be turned on. <br>
