@@ -11,7 +11,7 @@ Redis的消息队列(Redis Message Queue) <br>
 java  版本 大于 1.8                <br>
 window  下载 Redis 5.0以上版本  https://github.com/tporadowski/redis/releases         <br>
 sentinel 控制面板(建议1.6.2以上版本)                                                 <br>
-nacos 控制台(建议2.0以上版本)                                                       <br>
+Nacos 控制台(建议2.0以上版本)                                                       <br>
 
 <h2>启动：</h2>                               <br>
 优先启动redis，再启动nacos和sentinel          <br>
