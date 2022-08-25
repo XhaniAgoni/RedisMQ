@@ -8,7 +8,7 @@ Redis的消息队列(Redis Message Queue) <br>
 
 <style>
   *{font-size:18px}
-<style>
+</style>
 
 <h2>准备工作：</h2>                           <br>
 java  版本 大于 1.8                <br>
