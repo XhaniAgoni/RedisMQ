@@ -10,7 +10,7 @@ Redis的消息队列(Redis Message Queue) <br>
 <h2>准备工作：</h2>                           <br>
 Java  版本 大于 1.8                <br>
 Window  下载 Redis 5.0以上版本  https://github.com/tporadowski/redis/releases         <br>
-Sentinel 控制面板(建议1.6.2以上版本)                                                 <br>
+Sentinel 控制面板(建议1.6.2以上版本，在jar文件夹中已有1.8.5版本)                                                 <br>
 Nacos 控制台(建议2.0以上版本)                                                       <br>
 
 <h2>启动：</h2>                               <br>
@@ -39,7 +39,7 @@ Version: 1.0  <br>
 
 Java version is greater than 1.8  <br>
 Windows download Redis 5.0 or above https://github.com/tporadowski/redis/releases <br>
-Sentinel control panel (version 1.6.2 or above is recommended)  <br>
+Sentinel control panel (version 1.6.2 or above is recommended,Version 1.8.5 is available in the jar folder)  <br>
 Nacos console (version 2.0 or above is recommended) <br>
 <h2>Start:</h2>
 
