@@ -1,0 +1,53 @@
+服务端发送用户端接收，用户端分组，组分成员
+组分成员，成员除异
+参考文档：https://zhuanlan.zhihu.com/p/274275279
+
+原子性 https://zhuanlan.zhihu.com/p/449182244
+分布式锁	单线程是安全的				解决
+判断group进行自动创建group和consumer 		解决
+xreadgroup的bug					解决
+持久化策略 rdb aof					解决
+
+//pending 队列
+xpending consumers queuetest group1 
+xpending queuetest queuetest group1 - + 10 consumer1
+//返回消费移除队列
+xack queuetest group1 id-$
+//消费
+xgroup setid queuetest group1 0   		--ok
+xreadgroup group group? consumer? count 1||? streams queuetest >
+//xclaim长期未消费给其他消费
+//分组
+group1 2 3
+//用户 用户得不到相同的id
+consumer1 2 3
+	
+轮流xreadgroup
+读取完消费完返回xack 确认消息   关于群组 包含所有用户 consumer1 2 3
+
+url:localhost:6380/redis
+{
+    "next":"name",
+    "next1":"test-05",  //test-??
+    "next2":"queuetest"
+}
+return 1  		--ok 
+
+端口port：
+[nacos：8848
+
+redis: 6379
+
+RedisClientApplication
+client：6381
+swagger-Client：6381/swagger-ui.html
+
+RedisServiceApplication
+service：6380
+swagger-Client：6380/swagger-ui.html
+
+sentinel：8080
+sentinel窗口服务：jar/sentinel-dashboard-1.8.5.jar
+sentinel-Client：26380
+sentinel-Service：26379
+]
